@@ -41,7 +41,6 @@ public class Carro{
 	    public static void main(String[] args) {
 	        Scanner scanner = new Scanner(System.in);
 	        Carro carro = new Carro();
-	        System.out.println("Digite embarcar, abastecer _qtd, dirigir qtd");
 	        while(true){
 	            String line = scanner.nextLine();
 	            String ui[] = line.split(" ");
