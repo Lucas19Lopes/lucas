@@ -45,14 +45,6 @@ public class Numeros {
 					ind = nun.size();
 				nun.add(ind, value);
 				
-			}else if(cmd.equals("rmp")){
-				
-				int ind = Integer.parseInt(ui[1]);
-				if((ind < 0) || (ind >= nun.size()))
-					System.out.println("erro");
-				else
-					nun.remove(Integer.parseInt(ui[1]));
-				
 			}else if(cmd.equals("rm")){
 				
 				int value = Integer.parseInt(ui[1]);
@@ -64,7 +56,7 @@ public class Numeros {
 			    }
 			   
 			}else {
-				System.out.print("fail: command not found\n");
+				System.out.print("Erro");
 			}
 	}
 	}
